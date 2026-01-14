@@ -3,7 +3,7 @@
     <nav class="navbar">
       <div class="nav-container">
         <router-link to="/" class="nav-brand">
-          GameStore
+          CurseForge
         </router-link>
         <div class="nav-links">
           <router-link to="/" class="nav-link">Home</router-link>
@@ -11,7 +11,7 @@
         </div>
       </div>
     </nav>
-    
+
     <main class="main-content">
       <router-view v-slot="{ Component }">
         <transition name="fade" mode="out-in">
@@ -19,7 +19,7 @@
         </transition>
       </router-view>
     </main>
-    
+
     <footer class="footer">
       <p>&copy; 2024 GameStore. Powered by CurseForge API.</p>
     </footer>
@@ -55,7 +55,7 @@ body {
 .navbar {
   background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
   padding: 1rem 0;
-  box-shadow: 0 2px 10px rgba(0,0,0,0.3);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
 }
 
 .nav-container {
@@ -89,7 +89,7 @@ body {
 
 .nav-link:hover,
 .nav-link.router-link-active {
-  background-color: rgba(255,255,255,0.2);
+  background-color: rgba(255, 255, 255, 0.2);
 }
 
 .main-content {
@@ -134,7 +134,12 @@ body {
 }
 
 @keyframes spin {
-  0% { transform: rotate(0deg); }
-  100% { transform: rotate(360deg); }
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
 }
 </style>
