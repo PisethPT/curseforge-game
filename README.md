@@ -1,4 +1,7 @@
 # curseforge-game
+<img width="1920" height="1002" alt="image" src="https://github.com/user-attachments/assets/ce936a67-0bd2-4c2b-b422-20ca1bec3355" />
+
+# TODO
 
 This template should help get you started developing with Vue 3 in Vite.
 
